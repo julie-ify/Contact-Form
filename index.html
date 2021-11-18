@@ -306,24 +306,26 @@
             <div class="name-input">
               <input
                 type="text"
-                name="first_name"
-                id="first_name"
-                placeholder="First Name"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+                maxlength="30"
+                required
               />
             </div>
             <div>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email address"
-              />
+              <input type="email" name="email" id="email" />
             </div>
             <div>
-              <textarea name="msg" id="msg" class="input-msg" placeholder="Hello Mariane, Glad to see you!"></textarea>
+              <textarea
+                name="msg"
+                id="msg"
+                class="input-msg"
+                placeholder="Hello Mariane, Glad to see you!"
+              ></textarea>
             </div>
             <div>
-              <button class="link" id="form-btn">Get in touch</button>
+              <button class="link" id="form-btn" type="button">Get in touch</button>
             </div>
           </form>
         </div>
