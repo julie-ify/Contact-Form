@@ -292,16 +292,18 @@
       </div>
       <section class="contact-form-section">
         <div class="contact-form-wrap">
-          <h2 class="big-letter">
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
-          </h2>
+          <div class="big-letter-wrap">
+            <h2 class="big-letter">
+              I'm always interested in hearing about new projects, so if you'd
+              like to chat please get in touch.
+            </h2>
+          </div>
           <form
             action="https://formspree.io/f/mrgraejl"
             method="Post"
             class="contact-form"
           >
-            <div>
+            <div class="name-input">
               <input
                 type="text"
                 name="first_name"
@@ -311,22 +313,17 @@
             </div>
             <div>
               <input
-                type="text"
-                name="last_name"
-                id="last_name"
-                placeholder="Last Name"
-              />
-            </div>
-            <div>
-              <input
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Hello Mariane, Glad to see you!"
+                placeholder="Email address"
               />
             </div>
             <div>
-              <button class="form-btn">Get in touch</button>
+              <textarea name="msg" id="msg" class="input-msg" placeholder="Hello Mariane, Glad to see you!"></textarea>
+            </div>
+            <div>
+              <button class="link" id="form-btn">Get in touch</button>
             </div>
           </form>
         </div>
