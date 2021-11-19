@@ -327,6 +327,7 @@ li {
 }
 
 .contact-form-section {
+  font-family: 'Roboto', sans-serif;
   padding: 5%;
   width: 100%;
 }
@@ -361,14 +362,14 @@ input[type='email'] {
   padding: 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #ebe4e4;
+  border: 1px solid #f0efef;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
 }
 
 .input-msg {
-  background-color: #ebe4e4;
+  background-color: #fdf5f5;
   width: 100%;
   padding: 10px;
   height: 100px;
@@ -382,4 +383,28 @@ input[type='email'] {
   text-align: center;
   cursor: pointer;
   align-self: center;
+}
+
+.first-name,
+.last-name {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .contact-form-wrap {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .first-name,
+  .last-name {
+    display: flex;
+  }
+
+  .name {
+    display: none;
+  }
 }

@@ -305,10 +305,29 @@
           >
             <div class="name-input">
               <input
+              class="name"
                 type="text"
                 name="name"
                 id="name"
                 placeholder="Full Name"
+                maxlength="30"
+                required
+              />
+              <input
+                class="first-name"
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="First Name"
+                maxlength="30"
+                required
+              />
+              <input
+                class="last-name"
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Last Name"
                 maxlength="30"
                 required
               />
@@ -325,7 +344,9 @@
               ></textarea>
             </div>
             <div>
-              <button class="link" id="form-btn" type="button">Get in touch</button>
+              <button class="link" id="form-btn" type="button">
+                Get in touch
+              </button>
             </div>
           </form>
         </div>
