@@ -377,6 +377,11 @@ input[type='email'] {
   border: none;
 }
 
+.input-msg::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
 #form-btn {
   border: none;
   margin-top: 10px;
